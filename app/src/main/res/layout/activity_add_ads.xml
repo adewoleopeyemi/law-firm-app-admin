@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add image of Advert"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <ImageView
+                android:id="@+id/iv_ads"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_add_24"
+                android:padding="@dimen/_10sdp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Description of Advert"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:hint="Add description"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_margin="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name of Organization"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <EditText
+                android:id="@+id/orgnization_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:hint="Enter name of organization"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_margin="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Official email of organization"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <EditText
+                android:id="@+id/orgnization_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:hint="Enter email of organization"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_margin="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Official phone number of organization"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <EditText
+                android:id="@+id/orgnization_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="false"
+                android:hint="Enter phone number of organization"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_margin="@dimen/_10sdp"/>
+
+            <TextView
+                android:id="@+id/push_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Push Advert"
+                android:textSize="@dimen/_14sdp"
+                android:padding="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"/>
+            <TextView
+                android:id = "@+id/update_ad"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Update Ad"
+                android:textSize="@dimen/_14sdp"
+                android:padding="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_margin="20dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>
